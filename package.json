@@ -1,0 +1,1 @@
+{"name":"cozy-library","version":"0.1.0","private":true,"description":"Data-driven cozy world-discovery prototype","scripts":{"start":"node server.js"},"dependencies":{"express":"^5.1.0"}}
