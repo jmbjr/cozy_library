@@ -1,6 +1,6 @@
 window.COZY_ASSETS={
  views:{default:{id:"default",name:"Default View",width:560,height:280,haze:"?",notes:["The world is only possibility.","A few details are beginning to emerge.","Different threads of the world are connecting.","The world has become wonderfully specific.","The library is full. This world feels known."]}},
- shelves:{default:{id:"default",name:"Default Bookshelf",columns:6,slotHeight:110}},
+ shelves:{default:{id:"default",name:"Default Bookshelf",columns:6,slotHeight:110,className:"shelf-default"},wide:{id:"wide",name:"Wide Oak Bookshelf",columns:4,slotHeight:135,className:"shelf-wide"}},
  bookStyles:{default:{id:"default",name:"Default Book Style",spine:"#a85f4b",text:"#fff7df",offer:"#825445"}},
  bookSets:{
   valley:{id:"valley",name:"Starter Valley Books",requiresWorldSets:["valley"],books:[
@@ -20,5 +20,5 @@ window.COZY_ASSETS={
 ]},
   tidepool:{id:"tidepool",name:"Tidepool Objects",objects:[{fact:"flora:kelp_forest",className:"tide-kelp",content:"🌿　🌿　🌿"},{fact:"place:lighthouse",className:"tide-light",content:"🗼✨"},{fact:"species:crowned_crab",className:"tide-crab",content:"🦀👑　🦀"},{fact:"place:fishing_boats",className:"tide-boats",content:"⛵　🚤"},{fact:"species:shop_octopus",className:"tide-octopus",content:"🐙"},{fact:"nature:moon_pearls",className:"tide-pearls",content:"⚪ ✨ ⚪"},{fact:"creature:gulls",className:"tide-gulls",content:"🐦　🥪　🐦"},{fact:"weather:sea_fog",className:"tide-fog",content:"〰️　〰️　〰️"},{fact:"culture:dock_music",className:"tide-music",content:"🎵 🪗 🎶"},{fact:"nature:pink_shells",className:"tide-shells",content:"🐚　🐚"},{fact:"place:tea_stand",className:"tide-tea",content:"☕⛱️"},{fact:"nature:high_tide",className:"tide-tide",content:"🌊　🪵　🌊"}]}
  },
- bundles:{expandedValley:{name:"Expanded Valley Bundle",view:"default",shelf:"default",bookStyle:"default",bookSets:["valley"],worldSets:["expandedValley"]},valley:{name:"Starter Valley Bundle",view:"default",shelf:"default",bookStyle:"default",bookSets:["valley"],worldSets:["valley"]},tidepool:{name:"Tidepool Bundle",view:"default",shelf:"default",bookStyle:"default",bookSets:["tidepool"],worldSets:["tidepool"]}}
+ bundles:{expandedValley:{name:"Expanded Valley Bundle",view:"default",shelf:"wide",bookStyle:"default",bookSets:["valley"],worldSets:["expandedValley"]},valley:{name:"Starter Valley Bundle",view:"default",shelf:"default",bookStyle:"default",bookSets:["valley"],worldSets:["valley"]},tidepool:{name:"Tidepool Bundle",view:"default",shelf:"default",bookStyle:"default",bookSets:["tidepool"],worldSets:["tidepool"]}}
 };
