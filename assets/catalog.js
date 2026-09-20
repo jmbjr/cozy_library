@@ -1,5 +1,5 @@
 window.COZY_ASSETS={
- views:{default:{id:"default",name:"Default View",width:560,height:280,haze:"?",notes:["The world is only possibility.","A few details are beginning to emerge.","Different threads of the world are connecting.","The world has become wonderfully specific.","The library is full. This world feels known."]}},
+ views:{default:{id:"default",name:"Default View",width:560,height:280,haze:"?",notes:["The world is only possibility.","A few details are beginning to emerge.","Different threads of the world are connecting.","The world has become wonderfully specific.","The library is full. This world feels known."]},tall:{id:"tall",name:"Tall View",width:560,height:480,haze:"?",notes:["The world is only possibility.","A few details are beginning to emerge.","Different threads of the world are connecting.","The world has become wonderfully specific.","The library is full. This world feels known."]}},
  shelves:{default:{id:"default",name:"Default Bookshelf",columns:6,slotHeight:110,className:"shelf-default"},wide:{id:"wide",name:"Wide Oak Bookshelf",columns:4,slotHeight:135,className:"shelf-wide"}},
  bookStyles:{default:{id:"default",name:"Default Book Style",spine:"#a85f4b",text:"#fff7df",offer:"#825445"}},
  bookSets:{
